@@ -1,0 +1,13 @@
+.nav-wrapper {
+  margin: 2rem;
+}
+
+.form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.form button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

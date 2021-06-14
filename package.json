@@ -1,0 +1,41 @@
+{
+  "name": "oauth-login-consent",
+  "version": "1.0.0",
+  "description": "Lightweight web app to support OAuth2 authorization_code grant login/consent flow.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest --watchAll"
+  },
+  "keywords": [
+    "nodejs",
+    "oauth2",
+    "authorization_code"
+  ],
+  "author": "ic.dev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-pino-logger": "^6.0.0",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "pino": "^6.11.3",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "jest": "^27.0.4",
+    "pino-pretty": "^5.0.2",
+    "supertest": "^6.1.3"
+  }
+}
